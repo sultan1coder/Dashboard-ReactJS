@@ -13,11 +13,11 @@ export const SidebarProvider = ({ children }) => {
         dispatch({ type: "TOGGLE_SIDEBAR" })
     }
     return (
-        <SidebarContext.Provider value = {{
+        <SidebarContext.Provider value={{
             ...state,
             toggleSidebar
         }}>
-            { children }
+            {children}
         </SidebarContext.Provider>
     )
 }
