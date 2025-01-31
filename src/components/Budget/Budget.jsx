@@ -6,7 +6,7 @@ const Budget = () => {
     return (
         <div className="grid-two-item grid-common grid-c4">
             <div className="grid-c-title">
-                <h3 className="grid-c-title-text">Budget</h3>
+                <h3 className="grid-c-title-text"><button>Budget</button></h3>
                 <button className="grid-c-title-icon">
                     <img src={iconsImgs.plus} />
                 </button>
